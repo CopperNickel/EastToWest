@@ -15,15 +15,17 @@
     <RepositoryUrl>https://github.com/CopperNickel/EastToWest.git</RepositoryUrl>
     <PackageReleaseNotes>Events Traces for Windows Listener</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <Authors>Dmitrii Bychenko</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Diagnostics.NETCore.Client" Version="0.2.553101" />
 		<PackageReference Include="Microsoft.Diagnostics.Tracing.TraceEvent" Version="3.1.19" />
 	</ItemGroup>
-
+  
   <ItemGroup>
-    <None Include="Images\EastToWest.png" Pack="true" PackagePath="\"/>
+    <None Include="Images\EastToWest.png" Pack="true" PackagePath="\" />
   </ItemGroup>
   
 	<ItemGroup>
